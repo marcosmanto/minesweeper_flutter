@@ -17,10 +17,10 @@ void main() {
           grid.cells[0].mineCell();
           grid.cells[3].mineCell();
 
-          grid.cells[0].toogleMarked();
+          grid.cells[0].toggleMarked();
           grid.cells[1].open();
           grid.cells[2].open();
-          grid.cells[3].toogleMarked();
+          grid.cells[3].toggleMarked();
 
           expect(grid.resolved, isTrue);
         },

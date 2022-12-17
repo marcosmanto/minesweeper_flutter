@@ -46,7 +46,7 @@ class Cell {
     _mined = true;
   }
 
-  void toogleMarked() {
+  void toggleMarked() {
     _marked = !_marked;
   }
 
